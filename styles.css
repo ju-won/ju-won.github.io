@@ -1,22 +1,26 @@
 p{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    margin-top: 60px;
-    margin-bottom: 60px;
 }
-a{
-    color: #585959;
-    text-decoration: none;
-    font-size: 16px;
+.gnb
+{
+    background-color: white;
+    height: 120px;
+    box-shadow: 5px 5px 5px 5px rgba(58, 59, 59, 0.035);
+    
+}
+.padder{
+    max-width: 960px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .text{
-    margin-left: 10px;
-    margin-right: 10px;
+    color: #585959;
+    margin-right: 20px;
+    font-size: 14px;
 }
 .img {
     display: block;
-    width:90%;
+    width: 90%;
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +43,6 @@ a{
     height: 100%;
 }
 
-
 body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #FEFEFE !important;
@@ -47,21 +50,16 @@ body {
 }
 .navbar-title {
 	font-family: 'Roboto', sans-serif;
-	background-color: #FEFEFE !important;
-	color: limegreen;
-    font-size: 16px;
+    font-weight: 900;
+    background-color: #FEFEFE !important;
+	color: dimgrey;
+    font-size: 20px;
     margin-top: 20px;
-    text-align: center;
 }
 
-.container {
-	max-width: 960px;
-}
-
-}
 .contents{
 	width: 100%;
-
+    
 }
 .contents .thumbnail {
 	height: 390px;
@@ -78,9 +76,10 @@ body {
     vertical-align: middle;
 }
 .header {
-	margin-top: 80px;
+	margin-top: 280px;
 	margin-bottom: 0;
-	padding: 8px 16px 8px 16px;
+	padding-top: 8px;
+    padding-bottom: s 8px;
 	height: 150px;
 	vertical-align: middle;
 	display: inline-block;
@@ -92,15 +91,12 @@ body {
 
 .header h2 {
 	font-size: 28px;
-	font-family: 'Roboto', sans-serif;
 	margin-bottom: 30px;
-}
-.sub-text {
-    font-family: 'Roboto', sans-serif;
 }
 
 .row {
-	padding: 8px 16px 8px 16px;
+	padding-top: 8px;
+    padding-bottom: 16px;
 }
 .contents {
 	margin-bottom: 30px;
