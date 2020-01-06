@@ -70,11 +70,6 @@ body {
 	color: darkseagreen !important;
 }
 
-.helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
 .header {
 	margin-top: 280px;
 	margin-bottom: 0;
@@ -105,13 +100,11 @@ body {
 .contents .content-overlay {
   background: rgba(0,0,0,0.7);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
   opacity: 0;
+  padding-left: 1em;
+  padding-right: 1em;
   -webkit-transition: all 0.4s ease-in-out 0s;
   -moz-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
@@ -119,10 +112,6 @@ body {
 
 .contents:hover .content-overlay{
   opacity: 1;
-}
-
-.content-image{
-  width: 100%;
 }
 
 .content-details {
@@ -161,51 +150,51 @@ body {
   font-size: 0.8em;
 }
 
-.fadeIn-bottom{
-  top: 80%;
-}
-
 .fadeIn-top{
-  top: 20%;
+    top: 20%;
 }
 
-.contents a .thumbnail:hover {
-	background-color: red;
+.contents a {
+    position:relative; 
+    display: block; 
+    overflow: hidden;
+    margin: auto;
+}
+
+.contents:hover .thumbnail {
 	opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.thumbnail
+{
+    transition: all 0.3s;
+	background-position: center center;
+	background-size: cover;
+    transform: scale(1);
+}
+.thumbnail:hover img {
+    transform: scale(1.1);
 }
 .project1 .thumbnail {
 	background-image: url(/images/thumbnail_voice.png);
-	background-position: center center;
-	background-size: cover;
 }
 .project2 .thumbnail {
 	background-image: url(/images/thumbnail_airs.png);
-	background-position: center center;
-	background-size: cover;
 }
 .project3 .thumbnail {
 	background-image: url(/images/thumbnail_greendot.png);
-	background-position: center center;
-	background-size: cover;
 }
 .project4 .thumbnail {
 	background-image: url(/images/thumbnail_greendot.png);
-	background-position: center center;
-	background-size: cover;
 }
 .project5 .thumbnail {
 	background-image: url(/images/thumbnail_greendot.png);
-	background-position: center center;
-	background-size: cover;
 }
 .project6 .thumbnail {
 	background-image: url(/images/thumbnail_greendot.png);
-	background-position: center center;
-	background-size: cover;
 }
 .project7 .thumbnail {
 	background-image: url(/images/thumbnail_greendot.png);
-	background-position: center center;
-	background-size: cover;
 }
 
