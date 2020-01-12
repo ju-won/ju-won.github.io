@@ -74,8 +74,8 @@ p{
 /*================================마진================================*/
 .padder{
     max-width: 1056px;
-    padding-left: 16px;
-    padding-right: 16px;
+    /*padding-left: 16px;
+    padding-right: 16px;*/
 }
 
 .about_padder{
@@ -113,7 +113,7 @@ p{
 .footer {
     background-color: RGB(0,0,0,0.04);
     min-height: 200px;
-    padding-top:80px;
+    padding-top:75px;
     position: relative;
     width: 100%;
     text-align: center;
