@@ -5,7 +5,6 @@ p{
 .gnb
 {
     background-color: white;
-    height: 100px;
     box-shadow: 5px 5px 5px 5px rgba(58, 59, 59, 0.035);
     
 }
@@ -18,9 +17,16 @@ p{
     padding-left: 16px;
     padding-right: 16px;
 }
+
+.about_padder{
+    padding-right: 30%;
+}
+
+.sub-text{
+}
 .text{
     color: #585959;
-    margin-right: 10px;
+    margin-left: 10px;
     font-size: 13px;
 }
 .img {
@@ -76,14 +82,15 @@ font-family: 'Lobster', cursive;
 }
 
 .header {
-	margin-top: 200px;
-	margin-bottom: 0;
-	padding-top: 8px;
-    padding-bottom: s 8px;
-	height: 150px;
+	padding-top: 100px;
+    padding-bottom: 8px;
+	min-height: 150px;
 	vertical-align: middle;
 	display: inline-block;
 	width: 100%
+}
+.top_padding {
+	margin-top: 62px;
 }
 .header a {
 	color: mediumseagreen!important;
@@ -96,8 +103,7 @@ font-family: 'Lobster', cursive;
 }
 
 .row {
-    margin-top: 50px;
-	padding-top: 8px;
+	padding-top: 58px;
     padding-bottom: 16px;
 }
 .contents {
@@ -183,6 +189,17 @@ font-family: 'Lobster', cursive;
 	background-size: cover;
     transform: scale(1);
 }
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgrey;
+  color: white;
+  text-align: center;
+}
+
 .thumbnail:hover img {
     transform: scale(1.1);
 }
