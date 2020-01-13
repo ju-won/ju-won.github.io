@@ -87,6 +87,14 @@ p{
 	margin-top: 62px;
 }
 
+.project_img{
+    margin-top:62px;
+}
+
+.project_img.container{
+    padding-right:0;
+    padding-left:0;
+}
 /*================================구역================================*/
 .gnb
 {
