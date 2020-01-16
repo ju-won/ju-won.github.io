@@ -1,4 +1,7 @@
 /*================================텍스트================================*/
+a{
+    color: dimgrey
+}
 .navbar-title {
 font-family: 'Lobster', cursive;
     font-weight: 900;
@@ -66,9 +69,13 @@ p{
 	color: mediumseagreen!important;
 }
 .center-text{
+        color: #585959;
+        font-size: 13px;
     text-align: center;
     font-weight: 700;
     margin-top: 100px;
+        margin-bottom: 100px;
+
 }
 
 /*================================마진================================*/
